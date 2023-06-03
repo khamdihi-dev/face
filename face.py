@@ -193,7 +193,7 @@ class bot_author:
 
 class Dumps:
     def __init__(self,cookies):
-        self.coki = {'cookie': 'datr=LPBtZNKhqyX91-579SQkUH7c;sb=LPBtZBV_9Re-I8IKManmLqB9;dpr=2;locale=id_ID;vpd=v1%3B630x360x2;wl_cbv=v2%3Bclient_version%3A2259%3Btimestamp%3A1685357562;m_pixel_ratio=2;wd=360x630;c_user=100086956503453;xs=33%3Aqlzc-s2bf0lMqw%3A2%3A1685786718%3A-1%3A-1;fr=0JLoOCCWQjU3E56fq.AWWG71zprjlTc_VytHGLObqpOvE.BkcgVh.Ws.AAA.0.0.BkexBe.AWX-wRi_s-M;fbl_st=100630261%3BT%3A28096445;fbl_cs=AhDOe0ImLfv3mdjDr%2BHTVmtkGDRMaWphU0NHWTNhYmRod0J5S2VXVDRwUQ;fbl_ci=879581776415752;m_page_voice=100086956503453'}
+        self.coki = {'cookie': cookies} 
 
     def Group(self, url):
         global array
